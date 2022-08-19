@@ -1,0 +1,195 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Lato', sans-serif;
+}
+
+/* ktchen section starts here  */
+.kitchen{
+    /* border: 2px solid blue; */
+    height: 320px;
+    background: rgb(232, 250, 227);
+    display: flex;
+
+}
+.kitchen-img{
+    width: 50%;
+}
+.kitchen-text{
+    padding-top: 50px;
+    /* border: 2px solid black; */
+    width: 50%;
+    /* text-align: center; */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+}
+.kitchen-text .d{
+    font-size: 8.5px;
+    font-weight: bolder;
+    color: green;
+}
+.kitchen .line{
+    margin: 4px 0;
+    height: 0.5px;
+    width: 200px;
+    background:  rgb(194, 193, 193);
+}
+.kitchen-text h1{
+    margin: 5px 0;
+    font-size: 16px;
+    line-height: 1.4;
+    color: rgb(78, 78, 78);
+}
+.kitchen-text h5{
+    font-size: 9px;
+    color: rgb(122, 121, 121);
+}
+
+.kitchen-text button{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+    background: rgb(253, 130, 15);
+    font-size: 11px;
+    font-weight: bold;
+    width: 200px;
+    height: 22px;
+    margin-top: 33px;
+    border: 0;
+    border-radius: 5px;
+}
+.kitchen-text span{
+    margin-left: 30px;
+}
+/* kitchen section ends here  */
+
+/* extra starts here */
+.extra{
+    background: rgb(253, 250, 211);
+    height: 100px;
+    text-align: center;
+    color: rgba(230, 4, 4, 0.918);
+    font-size: 17px;
+    font-weight: bolder;
+    padding-top: 15px;
+}
+/* extra ends here */
+/* men section starts here  */
+.men{
+    /* border: 2px solid blue; */
+    height: 325px;
+    background: rgb(255, 229, 234);
+    display: flex;
+
+}
+.men-img{
+    width: 50%;
+}
+.men-text{
+    padding-top: 48px;
+    /* border: 2px solid black; */
+    width: 50%;
+    /* text-align: center; */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+}
+.men-text .d{
+    font-size: 8px;
+    font-weight: bolder;
+    color: rgba(230, 4, 4, 0.918);
+}
+.line{
+    margin: 3px 0;
+    height: 0.5px;
+    width: 250px;
+    background:  rgb(194, 193, 193);
+}
+.men-text h1{
+    margin: 3px 0;
+    font-size: 17px;
+    line-height: 1.4;
+    color: rgb(78, 78, 78);
+}
+.men-text h5{
+    font-size: 9px;
+    color: rgb(122, 121, 121);
+    line-height: 1.3;
+}
+
+.men-text button{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+    background: rgb(253, 130, 15);
+    font-size: 11px;
+    font-weight: bold;
+    width: 182px;
+    height: 20px;
+    margin-top: 25px;
+    border: 0;
+    border-radius: 5px;
+}
+.men-text span{
+    margin-left: 30px;
+}
+/* men section ends here  */
+/* dev section starts here  */
+.dev{
+    height: 280px;
+    background: rgb(253, 250, 219);
+    text-align: center;
+    padding: 60px 0;
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; */
+}
+.dev h1{
+    font-size: 30px;
+    color:rgb(54, 51, 12);
+    font-weight: 2500;
+    line-height: 1.4;
+}
+.dev h5{
+    font-weight: lighter;
+    font-size: 9px;
+    color: rgb(122, 121, 121);
+    margin-top: 10px ;
+}
+
+.dev button{
+    color: white;
+    background: rgb(253, 130, 15);
+    font-size: 10px;
+    font-weight: bold;
+    width: 180px;
+    height: 22px;
+    margin-top: 10px;
+    border: 0;
+    border-radius: 4px;
+}
+.dev span{
+    margin-left: 30px;
+}
+/* dev section ends here  */
+/* footer section starts here  */
+footer{
+    width: 100%;
+    height: 85px;
+    background: rgb(56, 53, 3);
+    display: flex;
+    align-items: center;
+}
+.footer-copyright{
+    color: white;
+    font-size: 15px;
+    padding: 20px 20px;
+}
+/* footer section ends here  */
