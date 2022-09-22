@@ -14,6 +14,9 @@ li{
 a{
     text-decoration: none;
 }
+p{
+    font-weight: lighter;
+}
 /* header1 section starts here */
 .htopmost{
     background: #ffffff;
@@ -347,8 +350,9 @@ a{
 }
 .men-text h5{
     font-size: 15x;
-    color: rgb(122, 121, 121);
+    color: black;
     line-height: 1.3;
+    font-weight: lighter;
 }
 .men-text button{
     display: flex;
@@ -490,6 +494,7 @@ a{
     color: #434343;
     font-size: 25px;
     padding: 10px 0;
+    font-weight: lighter;
 }
 .lower .hi{
     font-size: 14px;
