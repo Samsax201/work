@@ -573,7 +573,8 @@ footer{
     padding: 10px 0;
 }
 .footer-1{
-    border: 3px solid blue;
+    /* border: 3px solid blue; */
+    background: transparent;
     width: 150px;
     height: 70px;
 }
