@@ -5,12 +5,23 @@
 }
 @font-face{
     font-family: general;
-    src: url(./OTF/GeneralSans-Regular.otf);
+    src: url(./OTF/GeneralSans-Semibold.otf);
+    font-style: normal;
+    font-weight: 700;
+}
+@font-face{
+    font-family: general;
+    src: url(./OTF/GeneralSans-Light.otf);
+    font-style: normal; 
+    font-weight: 300;   
 }
 body{
     font-family: general;
     width: 100%;
     list-style: none;
+}
+html{
+    scroll-behavior: smooth;
 }
 li{
     list-style: none;
@@ -28,7 +39,6 @@ p{
     justify-content: flex-end;
 }
 .topmost{
-    /* height: 60px; */
     /* border: 3px solid black; */
     display: flex;
     justify-content: space-between;
@@ -59,19 +69,15 @@ p{
     align-items: center;
     justify-content: space-evenly;
     font-size: 15px;
-    font-weight: lighter;
     border-radius: 9px;
     width: 500px;
     height: 30px;
     color: rgb(139, 138, 138);
     cursor: pointer;
-    /* background: blue; */
 }
 .two li a{
     color: rgb(139, 138, 138);
 }
-
-
 /* header1 section ends here */
 /* home section starts here  */
 .hhome{
@@ -83,11 +89,8 @@ p{
 }
 .home{
     /* border: 2px solid blue; */
-    /* height: 320px; */
     width: 90%;
     display: flex;
-    /* margin: 0 auto; */
-    /* right: 0; */
     padding:  75px 0;
     padding-bottom: 0px;
 }
@@ -109,13 +112,16 @@ p{
     font-size: 53px;
     line-height: 1.2;
     padding: 20px 0;
+    font-family: general;
+    /* font-weight: 700; */
 }
-.home-text h5{
+.home-text .p{
     /* border: 3px solid black; */
     margin-top: 100px;
     font-size: 17px;
     color: #161616;
-    font-weight: lighter;
+    /* font-family: lighte; */
+    /* font-weight: 300; */
 }
 .phones{
     display: flex;
@@ -185,6 +191,7 @@ p{
     /* border: 3px solid black; */
     display: flex;
     justify-content: flex-end;
+    padding-right: 15px;
 }
 .house{
     width: 500px;
@@ -247,7 +254,7 @@ p{
 }
 .Restaurant{
     /* border: 2px solid blue; */
-    width: 90%;
+    width: 85%;
     display: flex;
     justify-content: space-between;
 
@@ -345,7 +352,7 @@ p{
 }
 .men{
     /* border: 2px solid blue; */
-    width: 90%;
+    width: 85%;
     display: flex;
 }
 
@@ -415,7 +422,7 @@ p{
     text-align: center;
     padding: 60px 0;
     color: #0D3B66;
-    font-weight: bold;
+    font-weight: 700;
     font-size: 30px;
 }
 /* dev section ends here  */
@@ -428,7 +435,7 @@ p{
 }
 .kitchen{
     /* border: 2px solid blue; */
-    width: 90%;
+    width: 85%;
     display: flex;
 
 }
@@ -518,14 +525,15 @@ p{
 .lower h3{
     padding: 10px 0;
     color: #434343;
-    font-weight: bolder;
     font-size: 25px;
+    /* font-family: general; */
 }
 .lower p{
     color: #434343;
-    font-size: 25px;
+    font-size: 30px;
     padding: 10px 0;
-    font-weight: lighter;
+    /* font-family: light; */
+    font-weight: 100 ;
 }
 .lower .hi{
     font-size: 14px;
@@ -562,10 +570,15 @@ footer{
     justify-content: space-evenly;
     align-items: center;
     font-size: 13px;
-    padding: 20px 0;
+    padding: 10px 0;
 }
 .footer-1{
-    
+    /* border: 3px solid blue; */
+    width: 150px;
+    height: 70px;
+}
+.footer-1 img{
+    width: 100%;
 }
 .footer-2{
     color: #FFFFFF;
